@@ -1,0 +1,7 @@
+package tetris;
+
+public enum EventType {
+	//ÏÂ£¬×ó£¬ÓÒ£¬Ðý×ª
+	DOWN, LEFT, RIGHT, ROTATE
+	
+}

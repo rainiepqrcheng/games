@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="pane02" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="340.0" style="-fx-background-color: rgba(0, 0, 0, 0.5);" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lightingfight.Pausecontroller">
+   <children>
+      <ImageView fx:id="pause" fitHeight="150.0" fitWidth="200.0"  layoutX = "100" layoutY ="100" onMouseClicked="#click" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

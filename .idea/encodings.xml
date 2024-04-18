@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/src/GameLibrary/GameLibraryFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/GameLibrary/GameLibraryMain.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/BuySuccess.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/HomePageBackground.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/HomePageMain.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/HomePageMyFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/addPictrue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/addchangePictrue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/adddhpicture.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/addfriendpicture.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/addgifpicture.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/HomePage/speed.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Login/LoginBackground.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Login/LoginBtn.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Login/LoginFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Login/LoginRigester.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Rigester/RegisterBackground.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Rigester/RegisterJcheckbox.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Rigester/RegisterMain.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Rigester/Registerbtn.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Rigester/RigesterFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/imgs/Images.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/BackGround.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/Bullet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/FirstFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/GoldFish.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/HuJing.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/MainFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/MyFish.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/大鱼吃小鱼/OtherFish.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/扫雷/CleanThur.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/扫雷/MinesStart.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/扫雷/MyButton.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/扫雷/boom_address.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/贪吃蛇/Data.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/贪吃蛇/GamePanel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/贪吃蛇/StartSnake.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/Airplane.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/Award.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/Bee.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/BigPlane.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/BigPlaneAward.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/Bullet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/Enemy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/FlyingObject.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/Hero.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/Sky.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/StartFly.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/飞机大战/World.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

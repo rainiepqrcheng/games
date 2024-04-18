@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane fx:id="pane00" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860" prefWidth="860" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lightingfight.menucontroller">
+   <children>
+      <ImageView fx:id="start01" fitHeight="150.0" fitWidth="200.0"  onMouseClicked="#click01" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="del"  layoutY="720" onMouseClicked="#click02" pickOnBounds="true" preserveRatio="true"/>
+   </children>
+</AnchorPane>

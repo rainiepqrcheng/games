@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<StackPane fx:id="root"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" onKeyPressed="#startmoving" onKeyReleased="#stopmoving" fx:controller="lightingfight.level01controller">
+<children>
+  <AnchorPane fx:id="pane01"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" layoutX="0" layoutY="0" prefHeight="860" prefWidth="860" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" >
+  </AnchorPane>
+  <AnchorPane fx:id="uiLayer" prefHeight="60" prefWidth="860" layoutX="0" layoutY="0" >
+            <children>
+                <ImageView fx:id="pause" fitHeight="150.0" fitWidth="150" layoutX="390" onMouseClicked="#click01" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

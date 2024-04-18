@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import tetris.OverPanel ?>
+
+<Pane fx:controller="tetris.UIController" xmlns:fx="http://javafx.com/fxml">
+	<GridPane fx:id="brickPanel" vgap="1" hgap="1"/>
+	<BorderPane styleClass="game-board">
+		<center>
+			<GridPane fx:id="gamePanel" vgap="1" hgap="1" />
+		</center>
+	</BorderPane>
+	<VBox layoutX = "255" layoutY = "20" alignment="CENTER" styleClass="v-box">
+		<VBox alignment="CENTER">
+		   <Label text="Score " styleClass="score-class" />
+		   <Text text="text" fx:id="scoreValue" styleClass="score-class" />
+		</VBox>
+		<VBox></VBox>
+		<HBox alignment="CENTER">
+		   <Label text="Line: " styleClass="line-lable" />
+		   <Text text="text" fx:id="lineText" styleClass="line-lable" />
+		</HBox>
+		<HBox alignment="CENTER">
+		   <Label text="Level: " styleClass="level-lable" />
+		   <Text text="text" fx:id="levelText" styleClass="level-lable" />
+		</HBox>
+		<VBox alignment="CENTER" >
+			<Label text="Next Brick" styleClass="next-brick-lable" />
+			<BorderPane styleClass="next-brick" prefWidth="100" prefHeight="70" maxWidth="100">
+				<center>
+				 <GridPane fx:id="nextBrick" alignment="CENTER" hgap="1" vgap="1" />
+				</center>
+			</BorderPane >
+		</VBox>
+		<Button text="New Game" fx:id="newGameButton" onAction="#handleNewGame" styleClass="ipad-dark-grey" />
+		<ToggleButton text="Pause" fx:id="pauseButton" styleClass="ipad-dark-grey" />
+		       <VBox>
+            <Text styleClass="help-info" wrappingWidth="150">
+                <![CDATA[
+                Use arrow keys (←, →, ↓) or (A,D,S) keys for movement.
+                ]]>
+            </Text>
+            <Text styleClass="help-info" wrappingWidth="150">
+                <![CDATA[
+                Use Space key or W key for rotating
+                ]]>
+            </Text>
+            <Text styleClass="help-info" wrappingWidth="150">
+                <![CDATA[
+                N - Start New Game.
+                ]]>
+            </Text>
+            <Text styleClass="help-info" wrappingWidth="150">
+                <![CDATA[
+                P - Pause/Resume.
+                ]]>
+            </Text>
+         </VBox>
+	</VBox>
+	
+	<Group fx:id="groupNotice" layoutX="14" layoutY="195">
+		<OverPanel fx:id="gameOverPanel" />
+	</Group>
+	
+	<stylesheets>
+		<URL value = "@window_style.css" />
+	</stylesheets>	
+</Pane>
